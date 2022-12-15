@@ -1,9 +1,9 @@
 {
-  "name": "barcadia",
+  "name": "deeqeevee",
   "private": true,
-  "description": "A super-fast site using GatsbyJS",
-  "version": "2.0.0",
-  "license": "MIT",
+  "description": "Site with Gb",
+  "version": "1.0.0",
+  "license": "Copyright by DeeQeeVee",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

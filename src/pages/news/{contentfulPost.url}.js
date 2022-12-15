@@ -16,16 +16,16 @@ const Post = ({ data: { contentfulPost } }) => {
 }
 
 export const data = graphql`
-    query postQuery($id: String) {
-        contentfulPost(id: { eq: $id }) {
-        title
-        introduction
-        content {
-            raw
-        }
-        createdAt(formatString: "DD MMMM, YYYY")
-        }
+  query postQuery($id: String) {
+    contentfulPost(id: { eq: $id }) {
+      title
+      introduction
+      content {
+        raw
+      }
+      createdAt(formatString: "DD MMMM, YYYY")
     }
-    `
+  }
+`
 
 export default Post

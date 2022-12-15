@@ -19,7 +19,7 @@ const Faq = ({ title, description }) => {
   }
 
   const toggleInfo = () => {
-    setInfo(showInfo => !showInfo)
+    setInfo((showInfo) => !showInfo)
   }
   return (
     <FaqStyles className={showInfo ? `${"faq-open"}` : `${"faq-closed"}`}>

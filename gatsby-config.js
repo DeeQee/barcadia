@@ -9,15 +9,15 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "@DeeQeeVee",
-    description: "Site using Gb",
+    description: "Dao Quang Vinh (@DeeQeeVee)",
     author: "DeeQeeVee",
     twitterUsername: "DeeQeeVee",
     facebookUsername: "DeeQeeVee",
     instagramUsername: "DeeQeeVee",
-    linkedinUsername: "morgan-baker-development",
+    linkedinUsername: "",
     image: "/macbook-color.jpg",
     siteUrl: "https://barcadia.netlify.com",
-    developerName: "Dao Quang Vinh Development",
+    developerName: "Dao Quang Vinh",
     developerUrl: "https://deeqeevee.netlify.com/",
   },
   /* Your site config here */
@@ -29,7 +29,7 @@ module.exports = {
       options: {
         spaceId: "g2wuq0wtk1uv", // process.env.CONTENTFUL_SPACE_ID,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: "0FuI7KuI-hHCyXAUTme05vcNFoKOXsrPWLK0sKVaLW4" // process.env.CONTENTFUL_ACCESS_TOKEN, 
+        accessToken: "0FuI7KuI-hHCyXAUTme05vcNFoKOXsrPWLK0sKVaLW4", // process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     {
